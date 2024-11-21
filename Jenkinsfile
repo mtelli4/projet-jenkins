@@ -7,11 +7,6 @@ pipeline {
     }
     
     stages {
-        stage('Checkout') {
-            steps {
-                git branch: 'main', url: 'https://github.com/mtelli4/projet-jenkins.git'
-            }
-        }
         
         stage('Build') {
             steps {
