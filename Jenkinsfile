@@ -19,6 +19,11 @@ pipeline {
                 sh 'mvn test'
             }
         }
+        stage('Run') {
+            steps {
+                sh 'mvn exec:java'
+            }
+}
     }
     
     post {
