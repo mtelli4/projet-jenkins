@@ -2,7 +2,7 @@ package com.example;
 
 public class App {
     public String getMessage() {
-        return "Bonjour, équipe 6";
+        return "IUT Gustave Eiffel";
     }
 
     public static void main(String[] args) {
